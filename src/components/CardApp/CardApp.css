@@ -1,0 +1,53 @@
+.app-Info > p {
+  font-size: 16px;
+  align-self: center;
+  padding: 0 10px;
+  color: var(--secondaryColor);
+}
+
+.app-Info > h5 {
+  text-align: justify;
+  padding: 0 12px;
+}
+
+.app-Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 340px;
+  height: 340px;
+  border: 5px solid #b5b2b2;
+  border-radius: 1rem;
+  padding: 0rem;
+  background-color: #e3e4e5;
+  color: black;
+}
+
+.app-Info > img {
+  width: 160px;
+  height: 100px;
+  object-fit: scale-down;
+  margin-top: 0.5rem;
+}
+
+.button-App {
+  width: 120px;
+  height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--mainColor);
+  color: var(--textColor);
+  font-size: medium;
+}
+
+.button-App:hover {
+  color: var(--secondaryColor);
+}
+
+/* .appInfo {
+    border: 1px solid blue;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+} */
